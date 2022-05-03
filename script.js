@@ -23,6 +23,6 @@ function compute()
 function updateRate() //to display seleted range
 {
     var rateval = document.getElementById("rate").value;
-    document.getElementById("rate_val").innerText=rateval;
+    document.getElementById("rate_val").innerText=rateval+"%";
 }
  
